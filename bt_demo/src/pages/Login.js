@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom";
+
 export default function Login() {
     return (
         <>
@@ -21,7 +23,7 @@ export default function Login() {
                         <label className="form-check-label" htmlFor="exampleCheck1">Check me out</label>
                     </div>
                     <button type="submit" className="btn btn-primary">Submit</button>
-                    <button type={"button"} className="btn btn-secondary">Register Page</button>
+                    <Link to={"/register"}><button type={"button"} className="btn btn-secondary">Register Page</button></Link>
                 </div>
                 <div className="offset-4"></div>
             </div>
