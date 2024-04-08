@@ -1,6 +1,11 @@
+import {useEffect, useState} from "react";
 
 
 export default function ListProductAdmin() {
+    let [list, setList] = useState([])
+    useEffect(() => {
+        axios
+    }, []);
     return (
         <>
             <div className="col-9">
