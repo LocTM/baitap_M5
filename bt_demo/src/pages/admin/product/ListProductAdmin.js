@@ -3,7 +3,10 @@
 export default function ListProductAdmin() {
     return (
         <>
-            <h1>List Product Admin page</h1>
+            <div className="col-9">
+                <h1>List Product Admin page</h1>
+            </div>
+
         </>
     )
 }

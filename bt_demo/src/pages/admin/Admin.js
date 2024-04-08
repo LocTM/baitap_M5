@@ -1,4 +1,4 @@
-import {useNavigate} from "react-router";
+import {Outlet, useNavigate} from "react-router";
 import ListProductAdmin from "./product/ListProductAdmin";
 
 export default function Admin() {
@@ -16,7 +16,7 @@ export default function Admin() {
                             <h1 className={'text-center'}>Menu Admin</h1>
                         </div>
                         <div className="col-12">
-                            <ListProductAdmin></ListProductAdmin>
+                            <Outlet></Outlet>
                         </div>
                     </div>
                 </div>
