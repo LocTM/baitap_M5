@@ -2,6 +2,7 @@
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import {Route, Router, Routes} from "react-router";
+import Admin from "./pages/admin/Admin";
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
                 <Routes>
                     <Route path={''} element={<Login></Login>}></Route>
                     <Route path={'register'} element={<Register></Register>}></Route>
+                    <Route path={'admin'} element={<Admin></Admin>}></Route>
                 </Routes>
 
             </div>
